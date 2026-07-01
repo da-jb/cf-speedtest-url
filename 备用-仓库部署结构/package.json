@@ -1,0 +1,14 @@
+{
+  "name": "am-cf-speed-test-url-pages",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check public/_worker.js",
+    "dev": "wrangler pages dev public",
+    "deploy": "wrangler pages deploy public --project-name am-cf-speed-test-url-pages"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
